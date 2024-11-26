@@ -1,9 +1,16 @@
 <style>
-*{margin:0;padding:0}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+*{margin:0;padding:0;box-sizing:border-box;}
 ul,ol{list-style: none;}
 a{text-decoration:none;color: #3F51B5;}
-h1,h2,h3,h4,h5{font-family:arial,sans-serif}
-body{font-family:arial,roboto,san-serif;font-size: 16px;}
+h1,h2,h3,h4,h5{font-family:arial,sans-serif;font-weight:bold}
+body{font-family:Arial, roboto,san-serif;font-size: 16px;line-height:1;}
 .row{width:100%;max-width:980px;margin:0 auto;}
 .mainheader{font-family:Arial, Helvetica, sans-serif;background: #000000;margin-bottom:20px;padding:10px 0;color:#ffffff}
 .mainheader a{color:currentColor}
@@ -22,10 +29,10 @@ body{font-family:arial,roboto,san-serif;font-size: 16px;}
 .entry-title{margin-bottom:10px;font-size:18px;}
 .content{margin-bottom:20px}
 .post-meta{margin-bottom:15px;}
-.post-meta{margin-bottom:10px;}
-.post .post-meta{font-size:12px;color:#666666}
+.post .post-meta{margin-bottom:10px;}
+.post-meta{font-size:12px;color:#666666}
 .post-title{margin-bottom: 15px;font-size:1.8em}
-.post-body p{font-family: Georgia, Times, 'Times New Roman', serif;font-size:16px;margin-bottom:15px}
+.post-body p{font-family: Georgia, Times, 'Times New Roman', serif;font-size:16px;margin-bottom:15px;line-height: 1.4em;}
 .post-body h2,.post-body h3,.post-body h4,.post-body h5{margin:30px 0 20px;width:100%}
 .post-body h2{font-size:1.5em}
 .post-body h3{font-size:1.3em}
@@ -46,10 +53,10 @@ body{font-family:arial,roboto,san-serif;font-size: 16px;}
 .f-sitelinks li{margin-bottom:10px}
 .f-sitelinks li:not(:last-child){margin-right:30px}
 /* toc */
-.section-nav{background-color:#fff;margin:0 0 20px!important;padding:10px 30px;border:1px solid #e8e8e8;border-radius:3px;max-width:300px;list-style:disc}
+.section-nav{background-color:#fff;margin:0 0 20px!important;padding:10px 30px;border:1px solid #e8e8e8;border-radius:3px;max-width:340px;list-style:disc}
 .section-nav ul{margin:10px 0 15px 15px}
-.section-nav li:not(:last-child){margin-bottom:5px}
-.pagination{display:flex;flex-wrap:wrap;align-items:center}
+.section-nav li:not(:last-child){margin-bottom:10px}
+.pagination{display:flex;flex-wrap:wrap;align-items:center;margin-bottom:20px}
 .pag-item{padding:4px;border:1px solid #ddd;min-width:20px;text-align:center;font-weight:700}
 a.pag-item:hover{background:#000;border-color:#000;color:#fff}
 
