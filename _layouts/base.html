@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/favicon.svg" rel="icon" type="image/x-icon">
+  <title>{{ page.title }}</title>
+    {% include css.html %}
+</head>
+<body>
+  <header class="mainheader">
+    <div class="header-wrapper row">
+    <div class="sitename">
+        {% if page.layout == "page" %}
+        <h1 class="sitebrand"><a href="{{ site.url }}">{{ site.title }}</a></h1>
+        {% else %}
+        <div class="sitebrand"><a href="{{ site.url }}">{{ site.title }}</a></div>
+        {% endif %}
+    </div>
+    <nav class="headernav">
+      <ul class="headernavlist">
+        <li><a href="{{ '/' | absolute_url }}">Home</a></li>
+        <li><a href="{{ '/about' | absolute_url }}">About</a></li>
+        <li><a href="{{ '/contact' | absolute_url }}">Contact</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <main class="mainarea">
+    <div class="mainpage row">
+        {{ content }}
+    </div>
+  </main>
+  <footer class="footerarea">
+    <div class="row">
+      <ul class="f-sitelinks">
+        <li><a href="/">Tentang Kami</a></li>
+        <li><a href="/">Privasi & Kebijakan</a></li>
+        <li><a href="/">Syarat & Ketentuan</a></li>
+        <li><a href="/">Penafian</a></li>
+        <li><a href="/">Kontak</a></li>
+      </ul>
+      <div class="cpr">
+        &copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
