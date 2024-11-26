@@ -14,7 +14,7 @@ pagination:
 ---
 {% for post in paginator.posts %}
 <section class="post">
-<div>{{ post.date | date: "%B %d, %Y" }} - {{ post.last_modified_at | date: "%B %d, %Y" }}</div>
+<div>{{ post.date | date: "%B %d, %Y" }}</div>
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 </section>
 {% endfor %}
