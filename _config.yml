@@ -36,6 +36,7 @@ defaults:
       permalink: /:title
       toc: true
    
+timezone: "Asia/Makassar"
 
 # Build settings
 theme: minima
