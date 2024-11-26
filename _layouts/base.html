@@ -8,7 +8,7 @@
   {% if page.layout == "page" %}
   <meta content="{{ site.description }}" name="description">
   {% else %}
-  <meta content="{{ page.description | default: page.subtitle | default: 'deskripsi' }}" name="description">
+  <meta content="{{ page.description | default: page.subtitle | default: page.title }}" name="description">
   {% endif %}
     {% include css.html %}
 </head>
