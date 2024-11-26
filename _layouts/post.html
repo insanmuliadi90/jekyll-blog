@@ -5,7 +5,10 @@ layout: base
     <article class="content">
       <h1 class="post-title">{{ page.title }}</h1>
       <div class="post-meta">
-      <div>Terbit Pada {{ page.date | date: "%B %d, %Y" }} - {{ page.last_modified_at | date: "%B %d, %Y" }}</div>
+        {% assign bulan = "Jan,Feb,Maret,April,Mei,Juni,Juli,Ags,Sep,Okt,Nov,Des" | split: "," %}
+        {% assign bulan_angka = page.date | date: "%m" | minus: 1 %}
+        {% assign mm = bulan[bulan_angka] %}
+      <div>Terbit Pada {{ page.date | date: "%d" }} {{ mm }} {{ page.date | date: "%Y" }} - {{ page.last_modified_at | date: "%d" }} {{ mm }} {{ page.last_modified_at | date: "%Y" }}</div>
       </div>
       <div class="post-body">
         {{ content | toc }}
