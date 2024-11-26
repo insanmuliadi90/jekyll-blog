@@ -60,3 +60,23 @@ Commit dan push perubahan ke GitHub:
 `git add .`
 `git commit -m "Initial commit"`
 `git push -u origin master`
+
+## Mengedit Kode dengan Visual Studio Code
+Visual Studio Code adalah editor kode yang sangat populer dan kaya fitur. Anda bisa menggunakannya untuk mengedit dan mengelola proyek Jekyll Anda. Berikut adalah beberapa langkah dasar untuk menggunakan Visual Studio Code dengan proyek Jekyll Anda:
+
+1. Buka Proyek: Buka Visual Studio Code dan buka folder proyek Jekyll Anda.
+2. Instal Ekstensi: Instal ekstensi yang membantu dalam pengembangan Jekyll, seperti "Jekyll Syntax Support" dan "Markdown All in One".
+3. Edit Konten: Mulai mengedit file markdown di folder `_posts` untuk menambahkan artikel baru atau mengedit yang sudah ada. Setiap perubahan yang Anda buat dapat langsung dilihat dengan menjalankan `bundle exec jekyll serve` dan membuka `http://localhost:4000` di browser.
+
+Menerapkan ke GitHub Pages
+Setelah Anda puas dengan blog Anda, saatnya untuk menerapkannya ke GitHub Pages agar bisa diakses oleh publik. Berikut langkah-langkahnya:
+
+1. Aktifkan GitHub Pages: Masuk ke pengaturan repositori GitHub Anda, gulir ke bawah ke bagian GitHub Pages, dan pilih sumber dari cabang master atau main.
+2. Deploy: GitHub akan secara otomatis membangun dan menerapkan situs Jekyll Anda. Anda dapat mengakses blog Anda di https://username.github.io/nama-repo.
+
+## Kesimpulan
+Membangun blog dengan Jekyll, GitHub Repo, dan Visual Studio Code adalah proses yang menyenangkan dan memberi Anda kontrol penuh atas konten dan desain blog Anda. Dengan mengikuti langkah-langkah ini, Anda dapat membuat blog yang cepat, aman, dan mudah dikelola. Selamat mencoba!
+
+Apakah Anda pernah mencoba menggunakan Jekyll untuk membangun blog? Bagikan pengalaman Anda di kolom komentar!
+
+Semoga artikel ini membantu Anda dalam memulai perjalanan membangun blog dengan Jekyll, GitHub Repo, dan Visual Studio Code. Jika ada pertanyaan atau permintaan lebih lanjut, jangan ragu untuk menghubungi saya! 😊
