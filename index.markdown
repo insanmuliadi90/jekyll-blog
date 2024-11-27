@@ -23,7 +23,7 @@ pagination:
 <div class="post-thumb"><img src="{{ post.image }}"></div>
 {% endif %}
 <div class="post-meta">{{ post.date | date: "%d" }} {{ mm }} {{ post.date | date: "%Y" }}</div>
-  <h2 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h2 class="entry-title item-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% if post.description %}{{ post.description | escape }}{% else %}{{ truncated_content }}{% endif %}... <a href="{{ post.url }}">Selengkapnya</a>
   
 </section>
