@@ -27,13 +27,16 @@
         <div class="sitebrand"><a href="{{ site.url }}">{{ site.title }}</a></div>
         {% endif %}
     </div>
-    <nav class="headernav">
+    <nav id="topnav" class="headernav">
       <ul class="headernavlist">
         <li><a href="{{ '/' | absolute_url }}">Home</a></li>
         <li><a href="{{ '/about' | absolute_url }}">About</a></li>
         <li><a href="{{ '/contact' | absolute_url }}">Contact</a></li>
       </ul>
     </nav>
+    <div id="menu" onclick="showMenu()">
+      <svg><use xlink:href='#menuicon'/></svg>
+    </div>
     </div>
   </header>
   <main class="mainarea">
@@ -55,5 +58,25 @@
       </div>
     </div>
   </footer>
+  <script>
+    //<![CDATA[
+    //Menu
+const menux = document.querySelector('#topnav');
+function showMenu() {
+	menux.classList.toggle('active');
+	console.log("Button diklik.");
+};
+window.onclick = function(event) {
+	if (!event.target.closest('#menu') && !event.target.closest('#topnav')) {
+		if (menux.classList.contains('active')) {
+			menux.classList.remove('active');
+		} else {}
+	}
+};
+    //]]>
+    </script>
+  <svg display="none">
+    <symbol id="menuicon" viewBox="0 0 24 24"><path d='M24 21H0v-2.86h24V21zm0-10.43H0v2.86h24v-2.86zM24 3H0v2.86h24V3z'/></symbol>
+  </svg>
 </body>
 </html>

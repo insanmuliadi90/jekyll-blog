@@ -6,12 +6,13 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
 /* HTML5 display-role reset for older browsers */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+html, body{height:100%}
 *{margin:0;padding:0;box-sizing:border-box;}
 ul,ol{list-style: none;}
 a{text-decoration:none;color: #AC1145;}
 a:hover{text-decoration:underline}
 h1,h2,h3,h4,h5{font-family:arial,sans-serif;font-weight:bold}
-html, body{height:100%}
+svg{width:24px;height:24px}
 body{font-family: Arial,san-serif;font-size: 16px;line-height:1;}
 .row{width:100%;max-width:840px;margin:0 auto;}
 .mainheader{font-family:Arial, Helvetica, sans-serif;background: #000000;margin-bottom:20px;padding:15px 0;color:#ffffff}
@@ -21,6 +22,8 @@ body{font-family: Arial,san-serif;font-size: 16px;line-height:1;}
 .headernav{margin-left:auto}
 .headernavlist{display:flex;align-items:center;flex-wrap:wrap}
 .headernavlist li:not(:last-child){margin-right:15px}
+#menu{margin-left: auto;position: relative;z-index: 3;}
+#menu svg{fill:#ffffff}
 .mainarea{min-height:calc(100vh - 55px)}
 .breadcrumbs-wrapper{margin-bottom:15px}
 .breadcrumbs{display:flex;flex-wrap:wrap;font-size:14px;}
@@ -70,5 +73,11 @@ a.pag-item:hover{background:#000;border-color:#000;color:#fff}
 /* media Query */
 @media screen and (max-width:960px){
 .row{width:95%}
+}
+@media screen and (max-width:960px){
+    .headernav{display:none;position:fixed;background:#000;top:0;right:0;height:100%;min-height:100vh;width:70%;z-index:2}
+    .headernavlist{display:block;padding:60px 30px 30px;height:100%}
+    .headernavlist li{padding:5px 0;margin-bottom:10px}
+    .headernav.active{display:block}
 }
 </style>
