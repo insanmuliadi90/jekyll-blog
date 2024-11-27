@@ -8,7 +8,7 @@ layout: base
         {% assign bulan = "Jan,Feb,Maret,April,Mei,Juni,Juli,Ags,Sep,Okt,Nov,Des" | split: "," %}
         {% assign bulan_angka = page.date | date: "%m" | minus: 1 %}
         {% assign mm = bulan[bulan_angka] %}
-      <div>Terbit Pada {{ page.date | date: "%d" }} {{ mm }} {{ page.date | date: "%Y" }} - {{ page.last_modified_at | date: "%d" }} {{ mm }} {{ page.last_modified_at | date: "%Y" }}</div>
+      <div>Terbit Pada {{ page.date | date: "%d" }} {{ mm }} {{ page.date | date: "%Y" }}, Diperharui {{ page.last_modified_at | date: "%d" }} {{ mm }} {{ page.last_modified_at | date: "%Y" }}</div>
       </div>
       <div class="post-body">
         {{ content | toc }}
