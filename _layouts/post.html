@@ -20,7 +20,7 @@ layout: base
         {%- if page.tags -%}
         <ul class="post-tags">
         {%- for tag in page.tags -%}
-        <li class="tag-item"><a href="/">{{- tag -}}</a></li>
+        <li class="tag-item"><a href="/tags.html#{{-tag-}}">{{- tag -}}</a></li>
         {%- endfor -%}
         </ul>
         {%- endif -%}
