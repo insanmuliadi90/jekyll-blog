@@ -14,16 +14,19 @@ a:hover{text-decoration:underline}
 h1,h2,h3,h4,h5{font-family:arial,sans-serif;font-weight:bold}
 svg{width:24px;height:24px}
 body{font-family: Arial,san-serif;font-size: 16px;line-height:1;}
-.row{width:100%;max-width:840px;margin:0 auto;}
-.mainheader{font-family:Arial, Helvetica, sans-serif;background: #000000;margin-bottom:20px;padding:15px 0;color:#ffffff;position: sticky;top:0}
+.row,.h-row{width:100%;margin:0 auto;}
+.row,.h-row{max-width:840px}
+.h-row{max-width:860px;}
+.mainheader{font-family:Arial, Helvetica, sans-serif;background: #000000;margin-bottom:20px;padding:0;color:#ffffff;position: sticky;top:0}
 .mainheader a{color:currentColor}
 .header-wrapper{display:flex;align-items:center}
-.sitebrand{font-size:25px;font-weight:700;font-family:sans-serif}
+.sitename {padding:14px;}
+.sitebrand{font-size:24px;font-weight:700;font-family:sans-serif}
 .headernav{margin-left:auto}
 .headernavlist{display:flex;align-items:center;flex-wrap:wrap}
 .headernavlist li:not(:last-child){margin-right:15px}
-#menu{margin-left: auto;position: relative;z-index: 3;}
-#menu svg{fill:#ffffff}
+#menu{margin-left: auto;position: relative;z-index: 3;padding:14px;display: none;}
+#menu svg{fill:#ffffff;display:block}
 .mainarea{min-height:calc(100vh - 55px)}
 .breadcrumbs-wrapper{margin-bottom:15px}
 .breadcrumbs{display:flex;flex-wrap:wrap;font-size:14px;}
@@ -75,6 +78,7 @@ a.pag-item:hover{background:#000000;border-color:#000;color:#fff}
 .row{width:95%}
 }
 @media screen and (max-width:960px){
+    #menu{display:block}
     .headernav{display:none;position:fixed;background:#000;top:0;right:0;height:100%;min-height:100vh;width:70%;z-index:2}
     .headernavlist{display:block;padding:60px 30px 30px;height:100%}
     .headernavlist li{padding:5px 0;margin-bottom:10px}
