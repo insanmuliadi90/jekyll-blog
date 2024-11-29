@@ -10,7 +10,7 @@ layout: base
         {% assign mm = bulan[bulan_angka] %}
       <div>Terbit Pada {{ page.date | date: "%d" }} {{ mm }} {{ page.date | date: "%Y" }}, Diperharui {{ page.last_modified_at | date: "%d" }} {{ mm }} {{ page.last_modified_at | date: "%Y" }}</div>
       </div>
-      <details class="postoc">
+      <details class="postoc" open>
         <summary>Konten</summary>
         {%-toc-%}
       </details>
