@@ -4,7 +4,7 @@ title: "Post Tags"
 permalink: /tags.html
 ---
 <h1 class="post-title">
-  Search through all of my posts by tag!
+  Temukan semua artikel berdasarkan tag yang tersedia!
 </h1>
 <div id="tags-list">
 {% for tag in site.tags %}
@@ -18,11 +18,10 @@ permalink: /tags.html
      {% for post in site.tags[tag_name] %}
      <li>
        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-       <b>
+       <i class="tag-date">{{ post.date | date: date_format }}</i>
          <a href="{{ post.url | relative_url }}">
            {{ post.title | escape }}
-         </a>
-       </b> - <i>{{ post.date | date: date_format }}</i>
+         </a> 
      </li>
      {% endfor %}
     </ul>
