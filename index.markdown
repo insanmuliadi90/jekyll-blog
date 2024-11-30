@@ -25,7 +25,7 @@ pagination:
 <div class="post-meta">{{ post.date | date: "%d" }} {{ mm }} {{ post.date | date: "%Y" }}</div>
   <h2 class="entry-title item-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <div class="entry-snippet">
-  {% if post.description %}{{ post.description | escape }}{% else %}{{ truncated_content }}{% endif %}... <a class="readmore" href="{{ post.url }}">Selengkapnya</a>
+  {% if post.description %}{{ post.description | escape }}{% else %}{{ truncated_content }}{% endif %}... <a class="readmore" href="{{ post.url }}">Selengkapnya&nbsp;⇾</a>
   </div>
 </section>
 {% endfor %}
