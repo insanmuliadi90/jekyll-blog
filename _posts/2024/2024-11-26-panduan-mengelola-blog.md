@@ -1,6 +1,6 @@
 ---
 title: "Panduan Mengelola Blog untuk Pertumbuhan Jangka Panjang"
-author: "Jane Doe"
+author: "Bang Mul"
 date: 2024-11-26 06:33
 tags: ["blogging", "manajemen", "pertumbuhan"]
 categories: ["Teknologi", "Panduan"]
@@ -16,6 +16,8 @@ Mengelola blog yang sukses tidak hanya membutuhkan kemampuan menulis yang baik, 
 ## Menetapkan Tujuan Blog
 
 Langkah pertama dalam mengelola blog adalah menetapkan tujuan yang jelas. Tujuan ini akan menjadi panduan Anda dalam membuat konten dan mengembangkan strategi. Apakah Anda ingin meningkatkan trafik, membangun komunitas, atau menghasilkan pendapatan dari blog Anda? Menetapkan tujuan yang spesifik, terukur, dan realistis akan membantu Anda tetap fokus dan termotivasi.
+
+>Ingatlah tujuanmu ngeblog...
 
 Setelah menetapkan tujuan, buat rencana jangka panjang yang mencakup langkah-langkah konkret untuk mencapainya. Misalnya, jika tujuan Anda adalah meningkatkan trafik, Anda mungkin perlu fokus pada strategi SEO dan pemasaran konten. Jika tujuan Anda adalah membangun komunitas, Anda mungkin perlu lebih banyak berinteraksi dengan pembaca melalui media sosial dan komentar blog.
 
