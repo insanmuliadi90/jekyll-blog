@@ -28,6 +28,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 author: Tim Anime Now
 
+collections:
+  authors:
+    output: true
+
 defaults:
   - scope:
       path: ""
