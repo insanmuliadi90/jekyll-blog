@@ -6,7 +6,7 @@ layout: base
       <h1 class="item-title post-title">{{ page.title }}</h1>
       <div class="post-meta">
         <div class="author">
-          {% assign nameslug = page.author| default: site.author | downcase | replace: ' ', '-' | replace: "'", '' %}
+          {% assign nameslug = page.author | default: site.author | downcase | replace: ' ', '-' | replace: "'", '' %}
           {% assign bulan = "Jan,Feb,Maret,April,Mei,Juni,Juli,Ags,Sep,Okt,Nov,Des" | split: "," %}
           {% assign bulan_angka = page.date | date: "%m" | minus: 1 %}
           {% assign mm = bulan[bulan_angka] %}
