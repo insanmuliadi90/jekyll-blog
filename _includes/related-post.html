@@ -1,0 +1,36 @@
+<div class="relatedPosts">
+
+    <div>You May Also Enjoy</div>
+    
+    {% assign maxRelated = 4 %}
+    {% assign minCommonTags =  1 %}
+    {% assign maxRelatedCounter = 0 %}
+    
+    {% for post in site.posts %}
+    
+        {% assign sameTagCount = 0 %}
+        {% assign commonTags = '' %}
+    
+        {% for category in post.categories %}
+          {% if post.url != page.url %}
+            {% if page.categories contains category %}
+              {% assign sameTagCount = sameTagCount | plus: 1 %}
+              {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+              {% assign commonTags = commonTags | append: tagmarkup %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+    
+        {% if sameTagCount >= minCommonTags %}
+          <div>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a>
+          </div>
+          {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+          {% if maxRelatedCounter >= maxRelated %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+    
+      {% endfor %}
+    
+    </div>
