@@ -5,11 +5,13 @@ layout: base
 
 <ul>
     {% for post in site.posts %}
-      {% if page.author == "Tim Anime Now" and (post.author == nil or post.author == "") %}
+        {% if page.author == "Tim Anime Now" %}
+        {% if post.author == nil or post.author == "" %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
           <span>{{ post.date | date: "%B %d, %Y" }}</span>
         </li>
+        {% endif %}
       {% elsif post.author == page.author %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
