@@ -1,6 +1,6 @@
 <div class="relatedPosts">
 
-    <div>You May Also Enjoy</div>
+    <div class="related-title">Artikel Terkait</div>
     
     {% assign maxRelated = 4 %}
     {% assign minCommonTags =  1 %}
@@ -22,8 +22,8 @@
         {% endfor %}
     
         {% if sameTagCount >= minCommonTags %}
-          <div>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a>
+          <div class="related-list">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           </div>
           {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
           {% if maxRelatedCounter >= maxRelated %}
