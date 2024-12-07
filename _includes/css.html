@@ -27,10 +27,10 @@ body{font-family: Arial,san-serif;font-size: 16px;line-height:1;}
 .headernav{margin-left:auto}
 .headernavlist{display:flex;align-items:center;flex-wrap:wrap}
 .headernavlist li:not(:last-child){margin-right:15px}
-.searchbtn{margin:0 0 0 20px}.searchbtn a{display:block}.searchbtn svg{display:block}
+.searchbtn{margin:0 10px 0 20px}.searchbtn a{display:block}.searchbtn svg{display:block}
 #menu{margin-left:auto;position:relative;z-index:3;padding:8px 15px;display:none;background:#971719;margin-right:14px;font-size:12px;color:#fff;border-radius:20px;margin-left:0;}
 #menu svg{fill:#ffffff;display:block}
-.mainarea{min-height:calc(100vh - 55px)}
+.mainarea{min-height:calc(100vh - 176px)}
 .breadcrumbs-wrapper{margin-bottom:15px}
 .breadcrumbs{display:flex;flex-wrap:wrap;font-size:14px;}
 .breadcrumbs>span{margin:0 8px}
@@ -91,6 +91,8 @@ a.pag-item:hover{background:#000000;border-color:#000;color:#fff}
 .post-list li{margin-bottom:10px;margin-left:28px;list-style:circle}
 .tag-date{display:block;font-size:12px;color:#666;font-style:italic;margin-bottom:8px}
 .post-list-heading.line-bottom{margin:20px 0 10px;font-size:18px}
+/* ekstra */
+#search-input{width:100%;padding:15px;border-radius:3px;margin-bottom:25px;}
 /* media Query */
 @media screen and (max-width:960px){
 .row{width:94%}
@@ -101,6 +103,7 @@ a.pag-item:hover{background:#000000;border-color:#000;color:#fff}
     .headernavlist{display:block;padding:60px 30px 30px;height:100%}
     .headernavlist li{padding:5px 0;margin-bottom:10px}
     .headernav.active{display:block}
+    .searchbtn{margin:0 20px 0 auto}
     .post-title{font-size:1.42em;}
 }
 </style>
