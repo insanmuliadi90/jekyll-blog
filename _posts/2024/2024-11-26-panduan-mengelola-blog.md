@@ -7,7 +7,7 @@ categories: ["Teknologi", "Panduan"]
 image: '/img/mobile-legend-2.webp'
 ---
 
-![mobile legend](/img/mobile-legend-2.webp)
+![mobile legend](/images/mobile-legend-2.webp)
 
 ## Pendahuluan
 

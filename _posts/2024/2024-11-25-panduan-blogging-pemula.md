@@ -8,7 +8,7 @@ categories: ["Teknologi"]
 image: 'img/blogging-girl.webp'
 ---
 
-<img alt="blogging" height="427" src="img/blogging-girl.webp" width="640">
+<img alt="blogging" height="427" src="images/blogging-girl.webp" width="640">
 
 Blogging telah menjadi salah satu cara terbaik untuk berbagi ide, pengetahuan, dan pengalaman di dunia digital. Namun, bagi banyak orang yang baru memulai, blogging bisa terasa menakutkan. Artikel ini akan membantu Anda memahami dasar-dasar blogging dan bagaimana memulainya.
 
