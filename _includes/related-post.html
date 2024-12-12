@@ -24,9 +24,8 @@
         {% if sameTagCount >= minCommonTags %}
           <div class="related-list">
             {% if post.image %}
-            <img src="/.netlify/images?url={{ post.image }}&fit=cover&w=100&h=100&fm=webp&q=75" alt="{{ post.title }}">
             {% endif %}
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ site.baseurl }}{{ post.url }}"><img src="/.netlify/images?url={{ post.image }}&fit=cover&w=50&h=50&fm=webp&q=75" alt="{{ post.title }}">{{ post.title }}</a>
           </div>
           {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
           {% if maxRelatedCounter >= maxRelated %}
