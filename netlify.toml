@@ -2,6 +2,6 @@
   # Requests to URLs matching this pattern...
   from = "/img/:file"
   # ...will resolve to this URL pattern
-  to = "/images/:file"
+  to = "/.netlify/images?url=/images/:file"
   # ... and the status code of 200 will make this behave as a rewrite
   status = 200
