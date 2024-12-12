@@ -1,1 +1,1 @@
-/img/*      /images/:splat
+/img/* /images/:splat 200

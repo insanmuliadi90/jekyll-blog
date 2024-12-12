@@ -1,7 +1,0 @@
-[[redirects]]
-  # Requests to URLs matching this pattern...
-  from = "/img/*"
-  # ...will resolve to this URL pattern
-  to = "/images/:splat"
-  # ... and the status code of 200 will make this behave as a rewrite
-  status = 200
