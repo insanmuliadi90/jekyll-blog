@@ -1,5 +1,6 @@
 ---
 title: "Anime Dandadan Terkonfirmasi Mendapatkan Season 2"
+description: "Crunchyroll mengumumkan bahwa anime televisi dari manga DAN DA DAN karya Yukinobu Tatsu akan mendapatkan musim kedua pada bulan Juli 2025"
 author: "Bang Mul"
 date: 2024-12-23 05:33
 tags: ["anime"]
