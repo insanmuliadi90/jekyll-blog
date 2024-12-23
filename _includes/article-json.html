@@ -1,21 +1,36 @@
 <script type="application/ld+json">
-  {
-      "@context": "https://schema.org",
-      "@type": "NewsArticle",
-      "headline": "{{ page.title }}",
-      "image": [{
-        "@type": "imageObject",
-        "url": "{{ page.image }}",
-        "contentUrl": "{{ page.image }}",
-        "height": "576",
-        "width": "1024"
-       }],
-      "datePublished": "{{ page.date | date: "%FT%T%:z" }}",
-      "dateModified": "{{ page.last_modified_at | date: "%FT%T%:z" }}",
-      "author": [{
-          "@type": "Person",
-          "name": "{{ page.author }}",
-          "url": "{{ site.url }}"
-        }]
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url }}"
+  },
+  "headline": "{{ page.title }}",
+  "description": "{{ page.title | default: page.subtitle }}",
+  "datePublished": "{{ page.date | date: "%FT%T%:z" }}",
+  "dateModified": "{{ page.last_modified_at | date: "%FT%T%:z" }}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}{{ page.image }}",
+    "height": 630,
+    "width": 1200
+  },
+  
+ "publisher": {
+    "@type": "Organization",
+    "name": "Anime Now",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60",
+      "width": 206,
+      "height": 60
     }
+  },
+  "author": {
+  	"url":"{{ site.url }}",
+    "@type": "Person",
+    "name": "{{ page.author }}"
+  }
+}
 </script>
