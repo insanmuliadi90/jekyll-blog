@@ -17,6 +17,7 @@
   <meta content="{{ page.keywords }}" name="keywords">
   {% endif %}
   <meta name="author" content="{{ page.author | default: site.author }}">
+  <link href="{{ site.url }}{{ page.url }}" hreflang="x-default" rel="alternate">
   <meta name="google-site-verification" content="fffJCb7JWMvBhXt-2jcWDbxXhK2NqxemN5VdM-qja9c" >
     <!-- Tag Meta untuk Media Sosial -->
     <meta property="og:title" content="{{ page.title }}">
@@ -29,6 +30,9 @@
     <meta name="twitter:description" content="{{ page.description | default: page.subtitle | default: page.title }}">
     <meta name="twitter:image" content="{{ page.image | default: site.image }}">
     <link rel="image_src" href="{{ site.url }}{{ page.image | default: site.image }}">
+  {% if page.layout == "post" %}
+    {% include article-json.html %}
+  {% endif %}
   {% include css.html %}
 </head>
 <body>
