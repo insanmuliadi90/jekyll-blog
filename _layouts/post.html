@@ -20,6 +20,7 @@ layout: base
       <div class="post-body">
         {{ content }}
       </div>
+      {% include sharebutton.html %}
         {%- if page.tags -%}
         <ul class="post-tags">
         {%- for tag in page.tags -%}
