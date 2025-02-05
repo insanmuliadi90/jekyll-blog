@@ -5,6 +5,7 @@ date: 2025-02-06
 categories: donghua
 tags: [xian ni, renegade immortal]
 description: 'Kekuatan Wang Lin menigkat drastis setelah mencapat tahap menegah Soul Formation. Lalu seberapa kuat?'
+image: 'img/wang-lin.webp'
 ---
 
 <figure>

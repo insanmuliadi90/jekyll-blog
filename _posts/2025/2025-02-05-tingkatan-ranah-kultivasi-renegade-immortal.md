@@ -5,6 +5,7 @@ date: 2025-02-05
 categories: donghua
 tags: [xian ni, renegade immortal]
 description: 'Baca nama-nama dan penjelasan setiap tingkatan ranah kultivasi Renegade Immortal serta terjemahannya dalam bahasa Indonesia'
+image: 'img/ancient-god-wang-lin.webp'
 ---
 
 <figure>
