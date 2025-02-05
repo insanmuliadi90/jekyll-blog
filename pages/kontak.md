@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tentang Kami
+title: Hubungi Kami
 permalink: /kontak
 ---
 

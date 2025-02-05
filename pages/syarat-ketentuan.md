@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tentang Kami
+title: Syarat dan Ketentuan
 permalink: /syarat-ketentuan
 ---
 
