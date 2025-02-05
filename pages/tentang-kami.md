@@ -4,9 +4,6 @@ title: Tentang Kami
 permalink: /tentang-kami
 ---
 
-
-Tentang Kami
-
 Selamat datang di Anime Now!
 
 Anime Now didirikan dengan tujuan untuk menjadi pusat informasi terkini dan komprehensif mengenai anime dan animasi Tiongkok, serta manga dan manhua. Kami berusaha untuk:
