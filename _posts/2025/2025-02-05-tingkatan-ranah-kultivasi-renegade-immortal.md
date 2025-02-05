@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'Tingkatan Ranah Kultivasi Renegade Immortal: Paduan Bahasa Indonesia'
+title: 'Tingkatan Ranah Kultivasi Renegade Immortal: Panduan Lengkap dalam Bahasa Indonesia'
 date: 2025-02-05
 categories: donghua
 tags: [xian ni, renegade immortal]
-description: 'Baca nama-nama dan penjelasan setiap tingkatan ranah kultivasi Renegade Immortal'
+description: 'Baca nama-nama dan penjelasan setiap tingkatan ranah kultivasi Renegade Immortal serta terjemahannya dalam bahasa Indonesia'
 ---
 
 <figure>
