@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: isPage
 title: Syarat dan Ketentuan
 permalink: /syarat-ketentuan
 ---

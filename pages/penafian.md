@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: isPage
 title: Penafian
 permalink: /penafian
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: isPage
 title: Tentang Kami
 permalink: /tentang-kami
 ---
