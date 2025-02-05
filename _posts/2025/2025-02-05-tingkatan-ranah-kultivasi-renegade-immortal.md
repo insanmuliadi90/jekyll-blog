@@ -3,7 +3,7 @@ layout: post
 title: 'Tingkatan Ranah Kultivasi Renegade Immortal: Paduan Bahasa Indonesia'
 date: 2025-02-05
 categories: donghua
-tags: [jekyll, blog]
+tags: [xian ni, renegade immortal]
 description: 'Baca nama-nama dan penjelasan setiap tingkatan ranah kultivasi Renegade Immortal'
 ---
 
