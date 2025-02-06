@@ -36,4 +36,4 @@ Momen ini menjadi kenangan terindah bagi Li Muwan. Mereka bermain-main di tepi a
 
 ### Penutup
 
-Episode ini menutup dengan pertanyaan besar: Akankah Li Muwan berhasil mencapai *Nascent Soul* dan menyelamatkan nyawanya? Bagaimana pendapatmu? Jangan lupa tinggalkan komentar di bawah! Jika kamu menyukai *Xian Ni*, jangan lupa untuk follow dan simpan artikel ini. Sampai jumpa di episode berikutnya!
+Episode ini menutup dengan pertanyaan besar: Akankah Li Muwan berhasil mencapai [ranah kultivasi](https://animenow.eu.org/tingkatan-ranah-kultivasi-renegade-immortal) *Nascent Soul* dan menyelamatkan nyawanya? Bagaimana pendapatmu? Jangan lupa tinggalkan komentar di bawah! Jika kamu menyukai *Xian Ni*, jangan lupa untuk follow dan simpan artikel ini. Sampai jumpa di episode berikutnya!
