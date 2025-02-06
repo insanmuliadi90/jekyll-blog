@@ -21,7 +21,7 @@
 title: Anime Now
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Anime Now situs yang membahas banyak hal tentang anime
+  Menyajikan berita terbaru, ulasan mendalam, dan pembaruan mengenai rilis anime dan animasi Tiongkok.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://animenow.eu.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
