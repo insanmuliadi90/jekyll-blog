@@ -25,7 +25,7 @@ layout: base
         <ul class="post-tags">
         {%- for tag in page.tags -%}
         {% assign slug = tag | downcase | replace: ' ', '-' | replace: "'", '' %}
-        <li class="tag-item"><a href="/tags.html#{{-tag-}}">{{- tag -}}</a></li>
+        <li class="tag-item"><a href="/tags.html#{{-slug-}}">{{- tag -}}</a></li>
         {%- endfor -%}
         </ul>
         {%- endif -%}
