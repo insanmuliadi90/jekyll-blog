@@ -31,6 +31,8 @@ author: Tim Anime Now
 collections:
   authors:
     output: true
+  categories:
+    output: true
 
 defaults:
   - scope:

@@ -16,7 +16,7 @@
 {% assign slug = category | downcase | replace: ' ', '-' | replace: "'", '' %}
 »
 <span class="breadcrumb-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-  <a itemprop="item" href="{{site.baseurl}}/categories/{{slug}}"><span itemprop="name">{{- category -}}</span></a>
+  <a itemprop="item" href="{{site.baseurl}}/kategori/{{slug}}/"><span itemprop="name">{{- category -}}</span></a>
   <meta itemprop="position" content="{{ forloop.index == 1 | plus: 1 }}" />
 </span>
 {% unless forloop.last %}{% endunless %}
