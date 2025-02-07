@@ -2,10 +2,12 @@
 layout: page
 ---
 <div class="post row">
-<h1>Kategori: {{ page.categories }}</h1>
-<ul>
+<h1 class="ktitle">{{ page.categories }}</h1>
+<ul class="klist">
 {% for post in site.categories[page.categories] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})
+  <li>
+    <div class="postdate">{{ post.date | date_to_string }}</div>
+    <a href="{{ post.url }}">{{ post.title }}</a>
     {% comment %}<br>
     {{ post.description }}
     {% endcomment %}

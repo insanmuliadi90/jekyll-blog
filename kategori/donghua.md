@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "Category: donghua"
+title: "Donghua"
 category: donghua
 categories: donghua
 ---

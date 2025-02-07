@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "Category: Anime"
+title: "Anime"
 category: anime
 categories: anime
 ---
