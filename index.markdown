@@ -20,7 +20,7 @@ pagination:
 {% assign mm = bulan[bulan_angka] %}
 <section class="post">
 {% if post.image %}
-<div class="post-thumb"><img src="/.netlify/images?url={{ post.image }}&fit=cover&w=92&h=92&fm=webp&q=75"></div>
+<div class="post-thumb"><img alt="thumbnail untuk {{-post.title-}}" height="92" src="/.netlify/images?url={{ post.image }}&fit=cover&w=92&h=92&fm=webp&q=75" width="92"></div>
 {% endif %}
 <div class="post-wrapper">
   <div class="post-meta">{{ post.author | default: site.author }} - {{ post.date | date: "%d" }} {{ mm }} {{ post.date | date: "%Y" }}</div>
