@@ -7,7 +7,7 @@ pagination:
   enabled: true
   per_page: 6
   permalink: '/page/:num/'
-  title: ' - page :num'
+  title: ' Anime Now - Page :num'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
