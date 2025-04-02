@@ -23,7 +23,7 @@
     
         {% if sameTagCount >= minCommonTags %}
           <div class="related-list">
-            <a href="{{ site.baseurl }}{{ post.url }}"><img height="80" src="{% if post.image %}/.netlify/images?url={{ post.image }}&fit=cover&w=80&h=80&fm=webp&q=75{% else %}data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAA3NCSVQICAjb4U/gAAAADElEQVQImWOor68HAAL+AX7vOF2TAAAAAElFTkSuQmCC{% endif %}" alt="Gambar ilustrasi dari {{ post.title }}" width="80"><div class="reltitle"><div class="reldate">{{  page.date | date: "%d" }} {{ mm }} {{ page.date | date: "%Y" }}</div>{{ post.title }}</div></a>
+            <a href="{{ site.baseurl }}{{ post.url }}"><img height="80" src="{% if post.image %}/.netlify/images?url={{ post.image }}&fit=cover&w=80&h=80&fm=webp&q=75{% else %}data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAA3NCSVQICAjb4U/gAAAADElEQVQImWOor68HAAL+AX7vOF2TAAAAAElFTkSuQmCC{% endif %}" alt="Gambar ilustrasi dari {{ post.title }}" width="80"><div class="reltitle"><div class="reldate">{{  post.date | date: "%d" }} {{ mm }} {{ post.date | date: "%Y" }}</div>{{ post.title }}</div></a>
           </div>
           {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
           {% if maxRelatedCounter >= maxRelated %}

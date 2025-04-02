@@ -7,8 +7,10 @@ tags: [xian ni, renegade immortal]
 description: 'Episode 82 Xian Ni menuai protes karena perubahan alur Wang Lin & Liu Mei. Simak kontroversi dan respons penggemar di sini!'
 image: 'img/liu-mei.webp'
 ---
+<figure>
 <img height="576" src="/img/liu-mei.webp" alt="Liu Mei Renegade Immortal" width="1024"/>
 Episode terbaru *Xian Ni* (Renegade Immortal) telah tayang, namun justru memicu gelombang kritik dari penggemar. Episode 82 yang dinantikan ini dianggap menyimpang dari alur novel asli, terutama dalam penggambaran hubungan antara Wang Lin dan Liu Mei.  
+</figure>
 
 ## Perubahan Kontroversial di Episode 82 
 Dalam episode ini, sutradara menambahkan adegan di mana Liu Mei berusaha meracuni Wang Lin menggunakan *gu* (racun mistis). Padahal, dalam novel karya Er Gen, Liu Mei tidak pernah melakukan hal tersebut. 
