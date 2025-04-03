@@ -16,6 +16,8 @@ Setelah Wang Lin berhasil mencapai tahap menengah dari [ranah kultivasi](https:/
 
 Waktu berikutnya, dihadapkan dengan puluhan Soul Formation, dalam sekejap saja, ia membunuh semua kultivator ini. Kekuatan dari Realm of Life and Death (生死意境) yang dimilikinya membuatnya mampu membunuh kultivator tahap akhir Cultivation God dengan mudah meski baru saja memasuki tahap tengah.
 
+## Kekuatan Wang Lin di Ranah Soul Formation tahap Menengah
+
 Rahasia di balik kekuatan Wang Lin tak lepas dari bantuan Zhou Yi.
 
 Qing Shuang, demi menghidupkan kembali Zhou Yi, mengorbankan sisa energi jiwanya. Karena Qing Shuang hanya sebuah jiwa yang tersisa, ia akhirnya dikalahkan oleh Ling Tianhou. Namun, dalam detik-detik terakhir, Qing Shuang menggunakan sisa kekuatannya untuk membentuk perisai pelindung agar jiwa Zhou Yi tidak hancur.
