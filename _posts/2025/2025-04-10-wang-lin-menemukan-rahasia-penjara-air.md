@@ -9,7 +9,7 @@ image: 'img/wang-lin-terluka.webp'
 ---
 
 <figure>
-<img height="576" src="/img/wang-lin-terluka.webp" alt="Liu Mei Renegade Immortal" width="1024"/>
+<img height="576" src="/img/wang-lin-terluka.webp" alt="Liu Mei Renegade Immortal" width="1024" fetchpriority="high"/>
 </figure>
 
 Setelah [merubah alur](https://animenow.eu.org/protes-penggemar-sutradara-xian-ni-ubah-alur-episode-82) pada episode sebelumnya, dalam episode terbaru *Renegade Immortal* (仙逆) episode 84, protagonis Wang Lin mengalami situasi tragis.
