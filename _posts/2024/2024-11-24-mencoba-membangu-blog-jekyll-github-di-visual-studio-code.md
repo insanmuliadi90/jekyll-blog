@@ -5,6 +5,7 @@ date: 2024-11-24
 categories: blogging
 tags: [jekyll, blog]
 description: 'ngeblog gratis dengan Github Page'
+published: false
 ---
 
 Membangun blog menggunakan Jekyll, GitHub Repo, dan Visual Studio Code adalah salah satu cara yang efisien dan modern untuk mengelola konten Anda. Jekyll adalah generator situs statis yang dirancang untuk GitHub Pages. Artikel ini akan memandu Anda langkah demi langkah untuk membangun blog Anda sendiri dengan menggunakan ketiga alat tersebut. 
