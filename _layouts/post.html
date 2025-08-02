@@ -12,7 +12,7 @@ layout: base
           {% assign mm = bulan[bulan_angka] %}
           <a href="/author/{{ nameslug }}">{{ page.author | default: site.author }}</a> pada {{ page.date | date: "%d" }} {{ mm }} {{ page.date | date: "%Y" }}</div>
         <div>Diperharui {{ page.last_modified_at | date: "%d" }} {{ mm }} {{ page.last_modified_at | date: "%Y" }}</div>
-        <!--<img alt="view counter" src='https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fanimenow.eu.org%2F{{ page.url }}&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=👁&edge_flat=false'/>-->
+          <img alt="view counter" src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fanimenow.eu.org%2F{{ page.url }}&label=&icon=eye&color=%23198754&message=&style=flat-square&tz=Asia%2FJakarta"/>
       </div>
       <details class="postoc" open>
         <summary>Daftar isi konten</summary>
