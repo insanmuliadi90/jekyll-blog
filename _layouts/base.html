@@ -30,6 +30,17 @@
     <meta name="twitter:description" content="{{ page.description | default: page.subtitle | default: page.title }}">
     <meta name="twitter:image" content="{{ page.image | default: site.image }}">
     <link rel="image_src" href="{{ site.url }}{{ page.image | default: site.image }}">
+  {% if page.layout == "page" %}
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "WebSite",
+      "name" : "Anime Now",
+      "alternateName" : "Anime Now Web",
+      "url" : "https://animenow.eu.org/"
+    }
+    </script>
+  {% endif %}
   {% if page.layout == "post" %}
     {% include article-json.html %}
   {% endif %}
